@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="content/css/vendeors/slick.css">
+    <link rel="stylesheet" href="content/css/vendeors/slick-theme.css">
+    <link rel="stylesheet" href="content/css/vendeors/bootstrap.min.css">
+    <link rel="stylesheet" href="content/css/main/style.css">
+
+</head>
+
+<body>
+    <main>
+        <section class="nav-land">
+            <nav class="navbar navbar-expand-lg fixed-top mb-5">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <h1 class="text-uppercase">
+                            <span class="text-warning">f</span><span class="text-danger">oo</span><span
+                                class="text-warning">dy</span>
+                        </h1>
+                    </a>
+                    <button class="navbar-toggler border-light shadow-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars text-light"></i>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-lg-0 m-auto text-capitalize">
+                            <li class="nav-item">
+                                <a class="nav-link p-lg-3 active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-lg-3" href="#about">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-lg-3" href="#gallery">gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-lg-3" href="views/menu.html">menu</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link p-lg-3" href="#contact-us">contact</a>
+                            </li>
+                        </ul>
+                        <div class="cart-shopping me-4 position-relative">
+                            <a href="views/cart-page.html">
+                                <i class="fa-solid fa-cart-plus fa-2x text-light ms-2"></i>
+                            </a>
+                            <div class="counter">
+                                0
+                            </div>
+                        </div>
+                        <div>
+                            <a class="btn btn-warning text-light" href="views/register.html"
+                                role="button">login/register <i class="fa-solid fa-right-to-bracket"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="bg-warning mb-5 position-relative">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class=" d-flex justify-content-center m-auto landing align-items-center land">
+                            <div class="text-left w-100 mt-5 landing-title">
+                                <h1 class="text-light">Are you starving?</h1>
+                                <p class="text-secondary fw-bold fs-1">Within a few clicks, find meals that are
+                                    accessible
+                                    near you
+                                </p>
+                                <a class="btn btn-primary text-capitalize w-25 fw-bold mb-3 " href="views/menu.html"
+                                    role="button">
+                                    explore our menu
+                                </a>
+                                <a class="btn btn-outline-secondary text-capitalize w-25 fw-bold mb-3" href="#discount"
+                                    role="button">
+                                    explore our page
+                                </a>
+                            </div>
+
+                            <div class="mt-5 w-100 land image">
+                                <img class="w-100 landing-img" src="content/assets/images/hero-header.png" alt="pasta">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carve w-100">
+                    <img src="content/assets/images/tb-about-before.png" class="img-fluid" alt="border">
+                </div>
+            </div>
+        </section>
+        <section id="discount">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card-image position-relative">
+                            <img src="content/assets/images/discount-item-1.png" alt="discount-item-1"
+                                class="rounded-3 w-100">
+                            <div
+                                class="card-discount d-flex position-absolute bottom-0 rounded bg-warning text-light  w-50 justify-content-center">
+                                <div>
+                                    <h1>15</h1>
+                                </div>
+                                <div>
+                                    %
+                                    <div class="text-uppercase">off</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body w-100 shadow-sm p-3 mb-5">
+                            <p class="text-capitalize text-dark fw-bold fs-lg-5 size">flat hill slingback</p>
+                            <div class="bg-warning text-danger fw-bold rounded text-center">
+                                <p class="text-capitalize">6 days remaining</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card-image position-relative">
+                            <img src="content/assets/images/discount-item-2.png" alt="discount-item-2"
+                                class="rounded-3 w-100">
+                            <div
+                                class="card-discount d-flex position-absolute bottom-0 rounded bg-warning text-light w-50 justify-content-center">
+                                <div>
+                                    <h1>10</h1>
+                                </div>
+                                <div>
+                                    %
+                                    <div class="text-uppercase">off</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body  shadow-sm p-3 mb-5">
+                            <p class="text-capitalize text-dark fw-bold fs-lg-5 size">ocean blue ring</p>
+                            <div class="bg-warning text-danger fw-bold rounded text-center">
+                                <p class="text-capitalize">6 days remaining</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card-image position-relative">
+                            <img src="content/assets/images/discount-item-3.png" alt="discount-item-3"
+                                class="rounded-3 w-100">
+                            <div
+                                class="card-discount d-flex position-absolute bottom-0 rounded bg-warning text-light w-50 justify-content-center">
+                                <div>
+                                    <h1>25</h1>
+                                </div>
+                                <div>
+                                    %
+                                    <div class="text-uppercase">off</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body  shadow-sm p-3 mb-0">
+                            <p class="text-capitalize text-dark fw-bold fs-lg-5 w-100 size">brown leathered wallet</p>
+                            <div class="bg-warning text-danger fw-bold rounded text-center">
+                                <p class="text-capitalize">6 days remaining</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card-image position-relative">
+                            <img src="content/assets/images/discount-item-4.png" alt="discount-item-4"
+                                class="rounded-3 w-100">
+                            <div
+                                class="card-discount d-flex position-absolute bottom-0 rounded bg-warning text-light  w-50 justify-content-center">
+                                <div>
+                                    <h1>20</h1>
+                                </div>
+                                <div>
+                                    %
+                                    <div class="text-uppercase">off</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body  shadow-sm p-3 mb-5">
+                            <p class="text-capitalize text-dark fw-bold fs-lg-5 size">silverside wristwatch</p>
+                            <div class="bg-warning text-danger fw-bold rounded text-center">
+                                <p class="text-capitalize">6 days remaining</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        <section class="py-0 bg-primary-gradient">
+            <div class="container">
+                <div class="row justify-content-center g-0">
+
+                    <h1 class="text-warning text-center mt-3">How does it work</h1>
+                    <div class="col-lg-3 col-12 mb-5">
+                        <div class="text-center mt-5">
+                            <img src="content/assets/images/location.png" alt="location">
+                        </div>
+                        <p class="text-capitalize fw-bold mt-3 text-center">Select location</p>
+                        <p class="text-center">Choose the location where your food will be delivered.</p>
+                    </div>
+                    <div class="col-lg-3 col-12 mb-5">
+                        <div class="text-center mt-5">
+                            <img src="content/assets/images/order.png" alt="order">
+                        </div>
+                        <p class="text-capitalize fw-bold mt-3 text-center">choose order</p>
+                        <p class="text-center w-100">Check over hundreds of menus <br> to pick your favorite food</p>
+                    </div>
+                    <div class="col-lg-3 col-12 mb-5">
+                        <div class="text-center mt-5">
+                            <img src="content/assets/images/pay.png" alt="pay">
+                        </div>
+                        <p class="text-capitalize fw-bold mt-3 text-center">pay advanced</p>
+                        <p class="text-center">It's quick, safe, and simple. <br> Select several methods of <br> payment
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-12 mb-5">
+                        <div class="text-center mt-5">
+                            <img src="content/assets/images/meals.png" alt="meals">
+                        </div>
+                        <p class="text-capitalize fw-bold mt-3 text-center">enjoy meals</p>
+                        <p class="text-center">Food is made and delivered directly to your home.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="slider">
+            <div class="container">
+                <div class="mt-5">
+                    <h1 class="text-capitalize text-center fs-1 mb-5">popular items</h1>
+                </div>
+                <div class="slick-slider overflow-hidden">
+
+                    <div class="me-3">
+                        <img src="content/assets/images/cheese-burger.png" alt="cheese-burger" class="w-100 rounded">
+                        <div class="card-body  shadow-lg p-3 mb-0">
+                            <p class="text-capitalize text-dark fw-bold fs-lg-5 size w-100 mb-0">cheese burger</p>
+                            <div class="text-warning  fw-bold">
+                                <p class="text-capitalize mb-0">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    burger arene
+                                </p>
+                                <p class="fw-bold text-dark mb-0">$3.88</p>
+                            </div>
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="far fa-heart icon text-end"></i>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button type="button" class="btn btn-warning text-light  btn-order fw-bold w-100">order
+                                    now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="me-3">
+                        <img src="content/assets/images/crispy-sandwitch.png" alt="crispy-sandwitch"
+                            class="w-100 rounded">
+                        <div class="card-body  shadow-lg p-3 ">
+                            <p class="text-capitalize text-dark fw-bold fs-lg-5 size w-100 mb-0">crispy sandwitch</p>
+                            <div class="text-warning fw-bold">
+                                <p class="text-capitalize mb-0">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    top sticks
+                                </p>
+                                <p class="fw-bold text-dark mb-0">$4.00</p>
+                            </div>
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="far fa-heart icon text-end"></i>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button type="button" class="btn btn-warning text-light  btn-order fw-bold w-100">order
+                                    now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="me-3">
+                        <img src="content/assets/images/dancake.png" alt="dancake" class="w-100 rounded">
+                        <div class="card-body  shadow-lg p-3 mb-0">
+                            <p class="text-capitalize text-dark fw-bold fs-lg-5 size w-100 mb-0">dancake</p>
+                            <div class="text-warning  fw-bold">
+                                <p class="text-capitalize mb-0">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    cake world
+                                </p>
+                                <p class="fw-bold text-dark mb-0">$1.99</p>
+                            </div>
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="far fa-heart icon text-end"></i>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button type="button" class="btn btn-warning text-light fw-bold btn-order  w-100">order
+                                    now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="me-3">
+                        <img src="content/assets/images/thai-soup.png" alt="thai-soup" class="w-100 rounded">
+                        <div class="card-body  shadow-lg p-3 mb-0">
+                            <p class="text-capitalize text-dark fw-bold fs-lg-5 size w-100 mb-0">thai soup</p>
+                            <div class="text-warning  fw-bold">
+                                <p class="text-capitalize mb-0">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    fastfood dine
+                                </p>
+                                <p class="fw-bold text-dark mb-0">$3.00</p>
+                            </div>
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="far fa-heart icon text-end"></i>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button type="button" class="btn btn-warning text-light fw-bold w-100 btn-order">order
+                                    now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="me-3">
+                        <img src="content/assets/images/toffes-cake.png" alt="toffes-cake" class="w-100 rounded">
+                        <div class="card-body  shadow-lg p-3 mb-0">
+                            <p class="text-capitalize text-dark fw-bold fs-lg-5 size w-100 mb-0">toffe's cake</p>
+                            <div class="text-warning  fw-bold">
+                                <p class="text-capitalize mb-0">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    foody man
+                                </p>
+                                <p class="fw-bold text-dark mb-0">$2.79</p>
+                            </div>
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="far fa-heart icon text-end"></i>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button type="button" class="btn btn-warning text-light fw-bold  btn-order w-100">order
+                                    now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-5 mt-3 w-100 text-center">
+                    <a class="btn btn-warning text-light text-capitalize w-25 fw-bold btn-menu " href="views/menu.html"
+                        role="button">
+                        view our menu
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="bg-img">
+                <div class="container">
+                    <div class="row col-xxl-9 py-7 justify-content-center flex-center text-center m-auto land">
+                        <h1 class="text-light land fw-bold py-5">Are you ready to order
+                            <br>
+                            with the best deals?
+                        </h1>
+                        <a class="btn text-center  btn-danger mb-5 text-light text-capitalize w-50 fs-3 fw-bold land "
+                            href="views/menu.html" role="button">
+                            proceed to order >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="special-cards mt-5">
+            <h1 class="text-center text-capitalize mb-5">special meals</h1>
+            <div class="container">
+                <div class="card m-auto mb-3 rounded-5 shadow-lg">
+                    <div class="row g-0 w-100">
+                        <div class="col-md-4 m-auto order-md-1 order-2">
+                            <div class="card-body">
+                                <h1 class="card-title text-capitalize text-dark fw-bold">Best deals <span
+                                        class="text-warning">
+                                        Crispy Sandwiches
+                                    </span>
+                                </h1>
+                                <p class="mt-5">Enjoy the large size of sandwiches. Complete your meal with the
+                                    perfect slice of sandwiches.</p>
+                                <a class="btn btn-warning w-100 mt-5 text-light text-capitalize w-25 fw-bold btn-menu "
+                                    href="views/menu.html" role="button">
+                                    procced to order
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8 order-md-2 order-1">
+                            <img src="content/assets/images/crispy-sandwiches.png" class="img-fluid  rounded-5"
+                                alt="crispy-sandwiches" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-auto rounded-5 mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <img src="content/assets/images/fried-chicken.png" class="img-fluid rounded-5"
+                                alt="fried-chicken" />
+                        </div>
+                        <div class="col-md-4 m-auto">
+                            <div class="card-body">
+                                <h1 class="card-title text-capitalize text-dark fw-bold">Celebrate parties with <span
+                                        class="text-warning">
+                                        fried chicken
+                                    </span>
+                                </h1>
+                                <p class="mt-5">Get the best fried chicken smeared with a lip smacking lemon chili
+                                    flavor. Check out best deals for fried chicken.
+                                </p>
+                                <a class="btn btn-warning w-100 mt-5 text-light text-capitalize w-25 fw-bold btn-menu "
+                                    href="views/menu.html" role="button">
+                                    procced to order
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-auto mb-3 rounded-5 shadow-lg">
+                    <div class="row g-0 w-100">
+                        <div class="col-md-4 m-auto order-md-1 order-2">
+                            <div class="card-body">
+                                <h1 class="card-title text-capitalize text-dark fw-bold">Wanna eat hot & <span
+                                        class="text-warning">
+                                        spicy Pizza?
+                                    </span>
+                                </h1>
+                                <p class="mt-5">Pair up with a friend and enjoy the hot and crispy pizza pops. Try
+                                    it
+                                    with the best deals.</p>
+                                <a class="btn btn-warning w-100 mt-5 text-light text-capitalize w-25 fw-bold btn-menu "
+                                    href="views/menu.html" role="button">
+                                    procced to order
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8 order-md-2 order-1">
+                            <img src="content/assets/images/pizza.png" class="img-fluid rounded-5" alt="pizza" />
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="gallery" class="mt-5 mb-5 bg-dark">
+            <div class="container">
+                <div class="mt-5 py-5">
+                    <h1 class="text-uppercase text-light text-center mt-5">our gallery</h1>
+                    <p class="text-center fw-bold fs-3 text-light text-uppercase mb-3">we create delicious memories</p>
+                </div>
+
+                <div class="row">
+                    <div class="gallary-image mb-3 col-lg-4 col-12">
+                        <img src="content/assets/images/page-1_img04.jpg" alt="food" class="w-100">
+                    </div>
+                    <div class="gallary-image mb-3 col-lg-4 col-12">
+                        <img src="content/assets/images/page-1_img05.jpg" alt="food" class="w-100">
+                    </div>
+                    <div class="gallary-image mb3 col-lg-4 col-12">
+                        <img src="content/assets/images/page-1_img06.jpg" alt="food" class="w-100">
+                    </div>
+                    <div class="gallary-image col-lg-8 col-12 mt-4">
+                        <img src="content/assets/images/page-1_img07.jpg" alt="food" class="w-100">
+                    </div>
+                    <div class="gallary-image col-lg-4 col-12 mt-4">
+                        <img src="content/assets/images/page-1_img08.jpg" alt="food" class="w-100">
+                    </div>
+                    <div class="gallary-image col-lg-6 col-12 mb-5 mt-4 me-0">
+                        <img src="content/assets/images/page-1_img09.jpg" alt="food" class="w-100">
+                    </div>
+                    <div class="gallary-image col-lg-6 col-12 mb-5 mt-4">
+                        <img src="content/assets/images/page-1_img10.jpg" alt="food"
+                            class="w-100 gallary-image__photo ">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="about" class="mt-5 mb-5">
+            <div class="container ">
+                <div class="row">
+                    <h1 class="text-capitalize text-center mb-5">about us</h1>
+                    <div class="col-lg-6 col-12">
+                        <h3 class="fs-3 mb-3">Welcome to the <span class="text-warning fw-bold">f</span><span
+                                class="text-danger fw-bold">oo</span><span class="text-warning fw-bold">dy</span> site!
+                            We care about
+                            providing the best experience for food lovers.</h3>
+                        <p class="fs-3 mb-3">We offer a variety of delicious foods that include different
+                            cuisines around the world. You can discover new recipes and share your favorite dish with
+                            the community.</p>
+                        <a class="btn btn-warning w-50 text-light fw-bold mt-4 mb-4" href="views/about.html"
+                            role="button">Read
+                            more</a>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <img src="content/assets/images/pexels-photo-3217156.jpeg" class="w-100 rounded-3" alt="chef">
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact-us">
+            <div class="container">
+                <h1 class="text-center mt-5 mb-3">Contact Us</h1>
+                <p class="text-center fs-3">our friendly team would love to hear from you</p>
+                <div class="row shadow-lg mb-5">
+                    <form class="mb-3 col-lg-6" id="submit_form">
+                        <div class="alert alert-success  mb-3 " style="display: none;" role="alert"
+                            id="success_message">
+                            Contact message was successfully sent!
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <input type="phone" name="phone" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" name="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning text-light fw-bold w-50">Submit</button>
+                    </form>
+                    <div class="col-lg-6 bg-warning">
+
+                        <div class="text-light m-auto d-flex justify-content-center mt-5">
+                            <a href="https://www.facebook.com/eslam.hesham.73" target="_blank"
+                                class="ms-5 text-light"><i class="fa-brands fa-facebook-f  fa-3x"></i></a>
+                            <p class="fw-bold ms-1 fs-3 text-capitalize">facebook</p>
+                        </div>
+                        <div class="text-light m-auto d-flex justify-content-center mt-5">
+                            <a href="https://www.instagram.com/eslam_hisham74" target="_blank"
+                                class="ms-5 text-light"><i class="fa-brands fa-instagram fa-3x"></i></a>
+                            <p class="fw-bold ms-1 fs-3 text-capitalize">instagram</p>
+                        </div>
+                        <div class="text-light mb-4 m-auto d-flex justify-content-center mt-5">
+                            <a href="https://wa.me/201225268652" target="_blank" class="ms-5 text-light"><i
+                                    class="fa-brands fa-whatsapp fa-3x"></i></a>
+                            <p class="fw-bold ms-1 fs-3 text-capitalize">whatsapp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="scrollButton" class="animate__animated animate__pulse"><i
+                    class="fa-solid fa-arrow-up-from-bracket fa-2x"></i></button>
+        </section>
+
+
+    </main>
+    <footer class="mb-0">
+        <div class="bg-secondary text-light p-1 flex-center justify-content-center align-items-center text-center">
+            <p class="mt-4 text-capitalize">&copy; <span class="current-year">2018</span> foody company.all rights
+                reserved.
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="content/js/vendeors/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="https://www.google.com/jsapi?key=YOUR_API_KEY"></script>
+    <script src="content/js/vendeors/slick.min.js"></script>
+    <script src="content/js/vendeors/bootstrap.bundle.min.js"></script>
+    <script src="content/js/main/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../content/css/vendeors/slick.css">
+    <link rel="stylesheet" href="../content/css/vendeors/slick-theme.css">
+    <link rel="stylesheet" href="../content/css/vendeors/bootstrap.min.css">
+    <link rel="stylesheet" href="../content/css/main/style.css">
+</head>
+
+<body>
+    <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+        <div class="container">
+            <a class="navbar-brand d-inline-block" href="../index.html">
+                <h1 class="text-uppercase">
+                    <span class="text-warning">f</span><span class="text-danger">oo</span><span
+                        class="text-warning">dy</span>
+                </h1>
+            </a>
+        </div>
+    </div>
+    <div class="container pay-contain">
+        <h2 class="text-capitalize text-start fw-bold">checkout</h2>
+        <h3 class="lh-lg fw-bold">Payment method</h3>
+
+        <div class="accordion mb-5" id="accordionExample">
+            <div class="accordion-item position-relative">
+                <h2 class="accordion-header" id="headingOne">
+                    <label class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <input class="form-check-input" type="radio" name="options" id="option1" value="option1"
+                            checked />
+                        <img class="pyment-card" src="../content/assets/Images/card-default (1).svg" alt="card" />
+                        credit/debit card
+                        <div class="right-photo position-absolute end-0">
+                            <img class="pyment-card1" src="../content/assets/Images/card-amex.svg" alt="" />
+                            <img class="pyment-card1" src="../content/assets/Images/card-discover.svg" alt="" />
+                            <img class="pyment-card1" src="../content/assets/Images/card-mastercard.svg" alt="" />
+                            <img class="pyment-card1 mr-5" src="../content/assets/Images/card-visa.svg" alt="" />
+                        </div>
+                    </label>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <form class="Act">
+                            <div>
+                                <label class="form-label mb-3" for="exampleInputnumber1">
+                                    Full Name</label>
+                                <input class="form-control mb-3" type="text" placeholder="Name on card"
+                                    aria-label="default input example" id="exampleInputnumber1" />
+                            </div>
+                            <div>
+                                <label for="exampleInputnumber2" class="form-label mb-3">
+                                    Card number</label>
+                                <input type="text" class="form-control mb-3" id="exampleInputnumber2"
+                                    placeholder="1234 5678 1234 5678" />
+                            </div>
+                            <div class="row g-2 mb-3">
+                                <div class="col-md">
+                                    <div class="form-floating">
+                                        <input type="date" class="form-control" id="floatingInputGrid"
+                                            placeholder="MM/YY" />
+                                        <label for="floatingInputGrid">Expire date</label>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-floating">
+                                        <input class="form-control" type="text" placeholder="CVC/CVV" />
+                                        <label for="floatingInputGrid" class="form-label">CVC/CVV</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <label class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <input class="form-check-input" type="radio" name="options" id="option2" value="option2" />
+                        <img class="pyment-card" src="../content/assets/Images/hpp-paypal.svg" alt="paypal" />
+                        Paypal
+                    </label>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        In order to complete your transaction, we will transfer you over
+                        to PayPal's secure servers. <br />
+                        ⚠️ Unfortunately, PayPal does not support payments in EGP.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="text-capitalize mb-3">Information</h1>
+        <form class="row g-3">
+            <div class="form-floating mb-3 col-md-6">
+                <input type="text" class="form-control" id="floatingInput" placeholder="First-name">
+                <label for="floatingInput">First-name</label>
+            </div>
+            <div class="form-floating col-md-6">
+                <input type="text" class="form-control" id="floatingInput" placeholder="last-name">
+                <label for="floatingInput">last-name</label>
+            </div>
+            <div class="form-floating col-12">
+                <input type="text" class="form-control mb-3" id="floatingExampleInputnumber2"
+                    placeholder="1234 5678 1234 5678" maxlength="11" />
+                <label for="floatingExampleInputnumber2" class="form-label mb-3">
+                    phone-number</label>
+            </div>
+            <div class="form-floating col-12">
+                <input type="text" class="form-control" id="floatingAddress" placeholder="1234 Main St">
+                <label for="floatingAddress" class="form-label">Address</label>
+            </div>
+            <div class="form-floating col-md-6">
+                <input type="text" class="form-control" id="floatingCity" placeholder="City">
+                <label for="floatingCity" class="form-label">City</label>
+            </div>
+            <div class="form-floating col-md-6">
+                <select id="inputState" class="form-select">
+                    <option selected>🌐 Egypt</option>
+                    <option value="1">🌐 Cairo</option>
+                    <option value="2">🌐 Qalyubia</option>
+                    <option value="3">🌐 Alex</option>
+                    <option value="3">🌐 The North Coast</option>
+                    <option value="3">🌐 Hurghada</option>
+                    <option value="3">🌐 Sharm EL-Shaikh</option>
+                    <option value="3">🌐 Tanta</option>
+                </select>
+            </div>
+            <div class="d-grid gap-2 col-4 mb-4 m-auto mt-4 checkout-btn">
+                <button class="btn btn-primary" type="button">Complete Checkout</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <footer class="mb-0  position-relative bottom-0">
+        <div class="bg-secondary text-light p-1 flex-center justify-content-center align-items-center text-center">
+            <p class="mt-4 text-capitalize">&copy; <span class="current-year">2018</span> foody company.all rights
+                reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="../content/js/vendeors/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="../content/js/vendeors/slick.min.js"></script>
+    <script src="../content/js/vendeors/bootstrap.bundle.min.js"></script>
+    <script src="../content/js/main/app.js"></script>
+</body>
+
+</html>

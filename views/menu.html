@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../content/css/vendeors/slick.css">
+    <link rel="stylesheet" href="../content/css/vendeors/slick-theme.css">
+    <link rel="stylesheet" href="../content/css/vendeors/bootstrap.min.css">
+    <link rel="stylesheet" href="../content/css/main/style.css">
+</head>
+
+<body>
+    <main id="menu">
+        <section class="nav-land">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="../index.html">
+                        <h1 class="text-uppercase">
+                            <span class="text-warning">f</span><span class="text-danger">oo</span><span
+                                class="text-warning">dy</span>
+                        </h1>
+                    </a>
+                    <button class="navbar-toggler border-light shadow-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars text-light"></i>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-lg-0 m-auto text-capitalize">
+                            <li class="nav-item">
+                                <a class="nav-link p-lg-3" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-lg-3" href="about.html">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-lg-3 active" aria-current="page" href="../views/menu.html">menu</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link p-lg-3" href="#contact-us">contact</a>
+                            </li>
+                        </ul>
+                        <div class="cart-shopping me-4 position-relative">
+                            <a href="cart-page.html">
+                                <i class="fa-solid fa-cart-plus fa-2x text-light ms-2"></i>
+                            </a>
+                            <div class="counter">
+                                0
+                            </div>
+                        </div>
+
+                        <div>
+                            <a class="btn btn-warning text-light" href="register.html" role="button">login/register <i
+                                    class="fa-solid fa-right-to-bracket"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="bg-warning mb-5 position-relative">
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class=" d-flex justify-content-center align-items-center overflow-hidden landing-2 land">
+                            <h1 class="text-light text-uppercase">menu</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carve position-absolute bottom-0">
+                    <img src="../content/assets/images/tb-about-before.png" class="w-100" alt="border">
+                </div>
+            </div>
+        </section>
+        <section class="menu-cards mt-5 mb-5">
+            <div class="container">
+                <div class="mt-5 mb-4 text-center">
+                    <button type="button" id="burgerButton"
+                        class="btn btn-outline-dark me-3 text-capitalize">burger</button>
+                    <button type="button" id="pizzaButton"
+                        class="btn btn-outline-dark text-capitalize me-3">pizza</button>
+                    <button type="button" id="saladButton"
+                        class="btn btn-outline-dark text-capitalize me-3">salad</button>
+                    <button type="button" id="drinksButton"
+                        class="btn btn-outline-dark text-capitalize me-3">drinks</button>
+                    <button type="button" id="dessertButton"
+                        class="btn btn-outline-dark text-capitalize me-3">desserts</button>
+                </div>
+                <div id="burgerDiv">
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/menu-modern-1-310x260.png" alt="burger"
+                                    class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Mexican Burger</h5>
+                                <p class="text-center text-secondary">These Mexican-style burger is pumped up with
+                                    flavor from chili
+                                    powder, cilantro, and jalapeno pepper. Served on buns topped with lettuce.</p>
+                                <p class="text-center text-danger fw-bold fs-3">$12.50</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/menu-modern-2-310x260.png" alt="burger"
+                                    class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Classic Burger</h5>
+                                <p class="text-center text-secondary">Chicken beef cooked over charcoal and onions on
+                                    the grill, hot pepper, lettuce, tomatoes,double American cheddar cheese sauce</p>
+                                <p class="text-center text-danger fw-bold fs-3">$13.90</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/menu-modern-3-310x260.png" alt="burger"
+                                    class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Mini Burger</h5>
+                                <p class="text-center text-secondary">Mini burgers, known by many as sliders, are the
+                                    hottest little food trend sweeping the nation, with half size of a classic burger.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$11.25</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/menu-modern-4-310x260.png" alt="burger"
+                                    class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Chicken Burger</h5>
+                                <p class="text-center text-secondary">Our Chicken Burger features a savory grilled
+                                    chicken burger patty topped with juicy tomatoes, fresh lettuce, and mayonnaise..
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$9.25</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke "></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/menu-modern-5-310x260.png" alt="burger"
+                                    class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Double Burger</h5>
+                                <p class="text-center text-secondary">Two signature flame-grilled beef patties topped
+                                    with a simple layer of melted American cheese and crinkle cut pickles.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$25</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/menu-modern-6-310x260.png" alt="burger"
+                                    class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">California Burger</h5>
+                                <p class="text-center text-secondary">Alfalfa sprouts crown these juicy burgers. A
+                                    combination of regular ground turkey and ground turkey breast offers superior
+                                    texture.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$18.25</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- --------------------------- pizza------------------------------------------------------- -->
+                <div id="pizzaDiv" class="d-none">
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/pizzas-1-310x260.png" alt="pizza" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Hawaiian</h5>
+                                <p class="text-center text-secondary">Fresh pineapple, applewood smoked ham and slivered
+                                    scallions make this pizza #1 among our youngest visitors.</p>
+                                <p class="text-center text-danger fw-bold fs-3">$12.50</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/pizzas-2-310x260.png" alt="pizza" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Sicilian</h5>
+                                <p class="text-center text-secondary">Rustic meets refined in this flavorful pizza with
+                                    spicy marinara, Italian sausage, spicy Capicola ham, salami, and Mozzarella.</p>
+                                <p class="text-center text-danger fw-bold fs-3">$13.90</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/pizzas-3-310x260.png" alt="pizza" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Classic Cheese</h5>
+                                <p class="text-center text-secondary">Large round pizza from QuickFood topped with 100%
+                                    Mozzarella and Muenster cheeses, hot out of the oven and ready when you are.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$13.90</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/pizzas-4-310x260.png" alt="pizza" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Margherita</h5>
+                                <p class="text-center text-secondary">The classic that everyone loves. Try our
+                                    Margherita with Italian tomatoes, fresh Mozzarella, fresh basil and Parmesan.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$17.97</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke "></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/pizzas-5-310x260.png" alt="pizza" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Neapolitan</h5>
+                                <p class="text-center text-secondary">One of our most popular dishes, this pizza
+                                    includes fresh tomatoes, cheese, oil, and garlic and is served with numerous
+                                    toppings.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$30</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke "></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---------------------------------------------- salad ---------------------------------------->
+                <div id="saladDiv" class="d-none">
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/salads-1-310x260.png" alt="salad" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Buffalo Bleu</h5>
+                                <p class="text-center text-secondary">Chopped romaine & iceberg blend, all-natural
+                                    chicken, original buffalo new york spicy sauce, grape tomatoes, and banana peppers.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$12.50</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/salads-2-310x260.png" alt="salad" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Greek Salad</h5>
+                                <p class="text-center text-secondary">Cucumbers, grape tomatoes, red onions, banana
+                                    peppers, black olives, and feta cheese with balsamic vinaigrette dressing.
+
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$13.90</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/salads-3-310x260.png" alt="salad" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Turkey Salad</h5>
+                                <p class="text-center text-secondary">Chopped romaine & iceberg blend, radiatorre pasta,
+                                    roasted turkey, crispy bacon, tomatoes, and buttermilk ranch dressing
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$13.90</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/salads-4-310x260.png" alt="salad" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Mediterranean</h5>
+                                <p class="text-center text-secondary">Spring mix, all-natural chicken, quinoa, black
+                                    olives, marinated tomatoes, sunflower seeds, feta cheese, and balsamic vinaigrette.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$17.97</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke "></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/salads-5-310x260.png" alt="salad" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Farmhouse salad</h5>
+                                <p class="text-center text-secondary">Baby kale, spring mix, roasted turkey, roasted
+                                    butternut squash, roasted brussels sprouts, glazed pecans, and goat cheese.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$19</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke "></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------ drinks --------------------------------------->
+                <div id="drinksDiv" class="d-none">
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/drinks-1-310x260.png" alt="drinks" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Diet CokeD</h5>
+                                <p class="text-center text-secondary">Try a crisp and refreshing no-calorie Diet Coke,
+                                    refreshing classics that compliments any dish of our menu.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$12.50</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/drinks-2-310x260.png" alt="drinks" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Blue Moon</h5>
+                                <p class="text-center text-secondary">Blue Moon cocktail is a fun, frozen martini
+                                    featuring blue curaçao, vanilla syrup, fresh orange juice, and whipped cream.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$10.90</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/drinks-3-310x260.png" alt="drinks" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Sparkling Water</h5>
+                                <p class="text-center text-secondary">A perfect choice for those who want a refreshing
+                                    drink in hot weather. A wide range of flavors is available!
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$13.90</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/drinks-4-310x260.png" alt="drinks" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Red Dawn</h5>
+                                <p class="text-center text-secondary">The Red Dawn- a strong and flavorful cocktail
+                                    comprised of Southern Comfort, lemon-lime soda <br> & cranberry juice.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$17.97</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke "></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/drinks-5-310x260.png" alt="salad" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">pina colada</h5>
+                                <p class="text-center text-secondary">Our specialty frozen Pina Colada made with Don Q
+                                    Rum, pineapple juice, and Coco Lopez, topped with toasted coconut.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$22</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke "></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------------------------- desserts ---------------------------------->
+                <div id="dessertDiv" class="d-none">
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/deserts-1-310x260.png" alt="desserts" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">French macaroons</h5>
+                                <p class="text-center text-secondary">French macaroons are thin, flavorful meringue
+                                    cookies that are sandwiched together with some kind of filling.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$12.50</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/deserts-2-310x260.png" alt="desserts" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Blueberry muffins</h5>
+                                <p class="text-center text-secondary">Big Blueberry muffins with a crusty sugar topping.
+                                    The blueberries and the sweet batter are fabulous and taste amazing.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$10.90</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/deserts-3-310x260.png" alt="desserts" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Donuts</h5>
+                                <p class="text-center text-secondary">Homemade and filled with a delightful vanilla
+                                    cream pudding and topped with sweet white icing, these donuts will delight you.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$13.90</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/deserts-4-310x260.png" alt="desserts" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Ice Cream</h5>
+                                <p class="text-center text-secondary">Our premium sweet-cream, classic vanilla ice cream
+                                    is pure pleasure. Perfect for sundaes, with a slice of cake, or just heavenly when
+                                    flying solo.
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$17.97</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke "></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="shadow-lg mb-4">
+                                <img src="../content/assets/images/deserts-5-310x260.png" alt="salad" class="w-100">
+                                <h5 class="text-capitalize text-center fw-bold mt-3">Pancakes</h5>
+                                <p class="text-center text-secondary">Get the deliciousness of this all-American dish—in
+                                    half the time. Enjoy the unforgettable taste of our pancakes!
+                                </p>
+                                <p class="text-center text-danger fw-bold fs-3">$21</p>
+                                <div class="text-warning text-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke "></i>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="button"
+                                        class="btn btn-warning text-light mb-3  btn-order fw-bold w-50">order
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-5 text-center">
+                    <button type="button"
+                        class="btn btn-warning text-capitalize text-light w-50 fs-3 p-3 text-center">download
+                        all
+                        menu</button>
+                </div>
+            </div>
+            <button type="button" id="scrollButton" class="animate__animated animate__pulse"><i
+                    class="fa-solid fa-arrow-up-from-bracket fa-2x"></i></button>
+        </section>
+    </main>
+    <footer class="mb-0">
+        <div class="bg-secondary text-light p-1 flex-center justify-content-center align-items-center text-center">
+            <p class="mt-4 text-capitalize">&copy; <span class="current-year">2018</span> foody company.all rights
+                reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="../content/js/vendeors/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="../content/js/vendeors/slick.min.js"></script>
+    <script src="../content/js/vendeors/bootstrap.bundle.min.js"></script>
+    <script src="../content/js/main/app.js"></script>
+</body>
+
+</html>
